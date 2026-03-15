@@ -387,7 +387,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1108,7 +1108,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1126,7 +1126,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1136,24 +1136,6 @@
 				)
 				(pin bidirectional line
 					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 1.27 0)
 					(length 2.54)
 					(name "SCL"
 						(effects
@@ -1171,6 +1153,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at -10.16 0 0)
 					(length 2.54)
 					(name "INT"
@@ -1180,7 +1180,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1198,7 +1198,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1620,16 +1620,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 99.06) (xy 115.57 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "067a9a45-f5b0-41e9-9392-82e198a6c7cc")
-	)
-	(wire
-		(pts
 			(xy 161.29 74.93) (xy 140.97 74.93)
 		)
 		(stroke
@@ -1647,6 +1637,16 @@
 			(type default)
 		)
 		(uuid "1431fec0-3e7f-4b91-b6e9-6e2551ff2317")
+	)
+	(wire
+		(pts
+			(xy 118.11 99.06) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1531f593-6409-44bb-a1a9-0e1534423114")
 	)
 	(wire
 		(pts
@@ -1677,16 +1677,6 @@
 			(type default)
 		)
 		(uuid "1816c42e-3daa-415c-8e18-3d8914de2777")
-	)
-	(wire
-		(pts
-			(xy 118.11 95.25) (xy 115.57 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e3e8595-0eef-4d2e-a57c-3bc1618209d4")
 	)
 	(wire
 		(pts
@@ -1790,6 +1780,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 76.2) (xy 118.11 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509ca3f7-0e1a-4438-b2cd-58a065bd9e68")
+	)
+	(wire
+		(pts
 			(xy 158.75 87.63) (xy 158.75 111.76)
 		)
 		(stroke
@@ -1850,6 +1850,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 95.25) (xy 115.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918d3471-7334-4735-919e-67de7fe88174")
+	)
+	(wire
+		(pts
 			(xy 132.08 87.63) (xy 132.08 72.39)
 		)
 		(stroke
@@ -1867,16 +1877,6 @@
 			(type default)
 		)
 		(uuid "af021710-c58f-4ab7-acc1-f62cce1c210f")
-	)
-	(wire
-		(pts
-			(xy 118.11 76.2) (xy 118.11 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b08bef23-b7c1-4763-9d20-fff405d3a36b")
 	)
 	(wire
 		(pts
@@ -1930,6 +1930,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 99.06) (xy 121.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d719fcb8-4382-4975-8304-3747c38fbbec")
+	)
+	(wire
+		(pts
 			(xy 148.59 111.76) (xy 148.59 115.57)
 		)
 		(stroke
@@ -1947,6 +1957,16 @@
 			(type default)
 		)
 		(uuid "e4f0ee8f-382d-499c-b7f8-77ac51b4ca7d")
+	)
+	(wire
+		(pts
+			(xy 140.97 99.06) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9fe3e42-252d-482d-8431-9ba4bdd54586")
 	)
 	(symbol
 		(lib_id "2N2222:2N2222")
@@ -2124,6 +2144,33 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Aliexpress"
+			(at 146.05 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.aliexpress.us/item/3256807891334673.html?utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008077649425%7C_p_origin_prod%3A1005009744071978"
+			(at 146.05 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 146.05 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "32823f94-4e59-4132-aa60-05b8491dc75d")
 		)
@@ -2188,7 +2235,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "VL53L1X breakout does not come with right angle header so need to et that as well"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Aliexpress"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.aliexpress.us/item/3256806005285334.html?utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006191600086%7C_p_origin_prod%3A"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting header link" "https://www.aliexpress.us/item/3256807353673955.html?utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007539988707%7C_p_origin_prod%3A1005008783967126"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
 			(at 171.45 77.47 0)
 			(effects
 				(font
@@ -2277,6 +2360,33 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Amazon"
+			(at 91.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.amazon.com/Avelis-Resistors-Assortment-Precision-Electronic/dp/B0FNRD8B3X"
+			(at 91.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 91.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a1d347b-ee6a-4840-9464-95719201e9bd")
 		)
@@ -2345,6 +2455,33 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Amazon"
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.amazon.com/Avelis-Resistors-Assortment-Precision-Electronic/dp/B0FNRD8B3X"
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9407c4a1-c063-4601-b537-f31e32bb3977")
 		)
@@ -2388,7 +2525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
 			(at 109.22 130.81 0)
 			(effects
 				(font
@@ -2406,7 +2543,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Battery connection points to be soldered to"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Amazon"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.amazon.com/YTKavq-Battery-Lithium-Rechargeable-Connector/dp/B08TTXX1W4?s=electronics"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
 			(at 109.22 130.81 0)
 			(effects
 				(font
@@ -2475,7 +2639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buzzer"
 			(at 153.67 111.76 0)
 			(effects
 				(font
@@ -2614,6 +2778,33 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Aliexpress"
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.aliexpress.us/item/3256808371712170.html?utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008558026922%7C_p_origin_prod%3A1005008129032384"
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7bde3d66-15ce-4cf5-970a-4c5479a915fe")
 		)
@@ -2655,7 +2846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "esp:xiao_esp32c3"
+		(property "Footprint" "XIAO_ESP32C3:xiao_esp32c3"
 			(at 99.06 71.12 0)
 			(effects
 				(font
@@ -2691,6 +2882,51 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Seeed Technology"
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Quantity" "1"
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "101991467"
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C3-Tape-Reel-p-6471.html"
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2796,6 +3032,33 @@
 			)
 		)
 		(property "Description" "1kΩ, 1/4W Resistor"
+			(at 132.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Amazon"
+			(at 132.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.amazon.com/Avelis-Resistors-Assortment-Precision-Electronic/dp/B0FNRD8B3X"
+			(at 132.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
 			(at 132.08 120.65 0)
 			(effects
 				(font

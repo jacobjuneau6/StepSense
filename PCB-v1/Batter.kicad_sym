@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery:Battery"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(effects
 				(font
